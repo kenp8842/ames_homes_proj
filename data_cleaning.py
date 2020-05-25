@@ -18,6 +18,7 @@ df = pd.read_csv(r"C:\Users\kenp8\Downloads\AmesHousing.txt", delimiter = '\t')
 #drop columns with little information
 ##total missing by column
 num_missing = df.isnull().sum()
+print(num_missing)
  
 ##filter columns >40% missing values
 drop_miss_cols = num_missing[(num_missing > (df.shape[0] * .4 ))].sort_values()
@@ -66,5 +67,3 @@ df = df.fillna(num_replace_dict)
 
 #dropping unnecesary first column
 df_cleaned = df.drop('Order', axis=1)
-
-df_cleaned.to_csv('Ames Home data cleaned.csv', index=False)

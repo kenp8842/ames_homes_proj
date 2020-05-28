@@ -6,6 +6,7 @@
 
 ## Code and References Used
 **Python Version:** 3.7
+
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn
 
 ## Resources

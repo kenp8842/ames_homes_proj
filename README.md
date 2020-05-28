@@ -1,5 +1,12 @@
 # Ames, Iowa Home Price Prediction: Project Overview
 * Created a model to estimate home prices in Ames, Iowa to show skills in machine learning.
+* Used existing data for homes that were sold between 2006 and 2010.
+* Engineered features from the data to better quantify the liveable square footage, total bathrooms and the effective age of the homes.
+* Optimized Linear, Lasso, and Random Forest Regressors using GridSearchCv to find the best model.
+
+## Code and References Used
+**Python Version:** 3.7
+**Packages:** pandas, numpy, sklearn, matplotlib, seaborn
 
 ## Resources
 

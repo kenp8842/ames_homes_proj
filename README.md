@@ -1,4 +1,5 @@
-# Home Price Prediction Ames, Iowa
+# Ames, Iowa Home Price Prediction: Project Overview
+* Created a model to estimate home prices in Ames, Iowa to show skills in machine learning.
 
 ## Resources
 

@@ -5,7 +5,7 @@
 * Optimized Linear, Lasso, and Random Forest Regressors using GridSearchCv to find the best model.
 
 ## Code and References Used
-**Python Version:** 3.7
+**Python Version:** 3.7                                                                                                    
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn
 
 ## Resources

@@ -30,5 +30,7 @@ https://www.thetruthaboutrealty.com/half-bath-vs-full-bath-wheres-the-value/
 **Effective Age**
 
 https://www.corelogic.com/blog/2016/11/effective-age-versus-actual-age.aspx
+
 https://www.homeadvisor.com/cost/additions-and-remodels/remodel-multiple-rooms/
+
 https://themreport.com/daily-dose/12-10-2019/smaller-home-sizes-to-become-the-norm-in-2020

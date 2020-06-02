@@ -38,7 +38,7 @@ https://themreport.com/daily-dose/12-10-2019/smaller-home-sizes-to-become-the-no
 After getting the data, it needed to be cleaned up so it was useful for our model. I made the following changes.
 * Dropped columns containing over 40% of values missing
 * Filled in the Electrical and Masonry veneer type with their most common values
-* Replaced NaN values in the 9 basement and garage columns that didn't include their build date with None
+* Replaced NaN values in the nine basement and garage columns that didn't include their build date with None
 * Changed all None values in Garage year built to zero so we could perform calculations if needed
 * Took the numeric columns and filled in all their NaN values with the most common value
 
@@ -57,7 +57,7 @@ the remodel and applying formula for effective age.
 
 ## Model Building
 
-* First I transformed the categorical variables into dummy variables. Then I split the data into train and test sets with a test size of 20%.
+First I transformed the categorical variables into dummy variables. Then I split the data into train and test sets with a test size of 20%.
 
 I tried three different model and evaluated them using mean absolute error. I chose mean absolute error for its ease of understanding.
 

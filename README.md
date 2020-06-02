@@ -39,7 +39,7 @@ After getting the data, it needed to be cleaned up so it was useful for our mode
 * Dropped columns containing over 40% of values missing
 * Filled in the Electrical and Masonry veneer type with their most common values
 * Replaced NaN values in the 9 basement and garage columns that didn't include their build date with None
-* Changed all None values in Garage year built to 0 so we could perform calculations if needed
+* Changed all None values in Garage year built to zero so we could perform calculations if needed
 * Took the numeric columns and filled in all their NaN values with the most common value
 
 ## EDA
@@ -51,7 +51,7 @@ I looked at the distributions of various columns in the data including both the 
 ## Feature Engineering
 
 * Created a liveable square footage feature by adding total square footage columns(including only 70% for basement square footage) and subtracting the low quality square footage
-* Built a total bathrooms column by combining above ground and basement full and half baths. Also, set maximum bathrooms at 3.5 for model.
+* Built a total bathroom column by combining above ground and basement full and half baths. Also, set maximum bathrooms at 3.5 for model.
 * Created an effective house age feature for the model. This involved getting the houses age from the year built, as well as the age of
 the remodel and applying formula for effective age.
 
